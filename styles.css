@@ -95,3 +95,13 @@ h1 em,h2 em{font-weight:500;color:var(--orange-dark)}
 .contact-intro{max-width:790px;padding:14px 0 40px}
 .contact-intro h2{font-size:32px;margin:0 0 14px}
 .contact-intro p{color:var(--muted);max-width:650px;margin:0}
+/* Use the Figma graphic mark with the project's AstroCeleb spelling. */
+.brand-symbol{display:block;flex:0 0 55px;width:55px;height:40px;overflow:hidden}
+.brand-symbol img{display:block;width:181px;height:40px;max-width:none;object-fit:cover;object-position:left center}
+.brand-word{font-family:'DM Sans',Arial,sans-serif;font-size:26px;font-weight:700;letter-spacing:-1.7px;line-height:1;white-space:nowrap;color:#24252d}
+.brand-word span{color:var(--orange-dark)}
+.phone-brand{align-items:center;gap:1px}
+.phone-brand .brand-symbol{flex-basis:33px;width:33px;height:24px}
+.phone-brand .brand-symbol img{width:109px;height:24px}
+.phone-brand .brand-word{font-size:16px;letter-spacing:-1.05px}
+@media(max-width:720px){.brand-symbol{flex-basis:48px;width:48px;height:35px}.brand-symbol img{width:159px;height:35px}.brand-word{font-size:23px}.phone-brand .brand-symbol{flex-basis:33px;width:33px;height:24px}.phone-brand .brand-symbol img{width:109px;height:24px}.phone-brand .brand-word{font-size:16px}}

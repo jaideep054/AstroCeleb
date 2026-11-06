@@ -1,6 +1,6 @@
-# Astroceleb website
+# AstroCeleb website
 
-Static HTML/CSS/JavaScript website for the astrology app shown in the supplied Figma file. The header and footer use the supplied Astroceleb logo (node 26:630). No framework, build step, or payment keys are required to serve these files.
+Static HTML/CSS/JavaScript website for the astrology app shown in the supplied Figma file. The header, footer, and hero phone use the graphic mark from the supplied Figma logo (node 26:630) with the corrected AstroCeleb wordmark. No framework, build step, or payment keys are required to serve these files.
 
 ## Preview
 
@@ -20,7 +20,7 @@ From this directory, run `python3 -m http.server 8765` and open `http://localhos
 ## Complete before submitting to Razorpay
 
 1. Add the real registered merchant name, postal address, support email, and phone number to `contact.html` before submitting the site for Razorpay review. The contact page currently contains no direct contact method.
-2. Confirm that the public merchant name matches the Razorpay application and the actual app brand. The website uses **Astroceleb** from the supplied logo; other Figma screens contain **AstroTalk** labels, so confirm which brand is correct.
+2. Confirm that the public merchant name matches the Razorpay application and the actual app brand. The website uses **AstroCeleb** as requested. The supplied logo image spells **Astroceleb**, so the site crops its graphic mark and renders the corrected wordmark as text; other Figma screens contain **AstroTalk** labels.
 3. Confirm which Figma services are actually live. Remove any unlaunched service from `services.html` and corresponding policy wording. Add real prices or a clear, reachable app listing and checkout where customers can see the exact price before paying.
 4. Review `refunds.html` and approve the proposed cancellation windows, support response times, refund processing time, and product return rules against your actual operations.
 5. If physical Shopping is live, put the real shipping regions, dispatch and delivery ranges, fees, and tracking method in `shipping.html` and the app checkout. If it is not live, remove the physical-product claims and state that digital services have no shipping.
