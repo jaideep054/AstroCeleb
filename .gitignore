@@ -1,0 +1,6 @@
+dist/
+.openai/
+.sites-checkout/
+.sites-checkout-*/
+.git-data/
+.DS_Store
